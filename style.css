@@ -1,0 +1,92 @@
+body {
+    font-family: Arial;
+    margin: auto;
+    background-color: whitesmoke;
+}
+nav {
+    display: flex;
+    justify-content:space-around;
+    background: black;
+    color: rgb(42, 6, 170);
+    padding: 15px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav h2{
+    color: antiquewhite;
+    justify-content: end;
+
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a {
+    color: rgb(201, 18, 176);
+    text-decoration: none;
+    }
+
+
+
+}
+.Gold {
+    text-align: center;
+    padding: 50px;
+}
+.project-container  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background: rgb(29, 3, 47);
+
+
+}
+.project-container img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+}
+.project-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0 0.1);``
+}
+.project-box  h3{
+    color: rgb(130, 30, 141);
+}
+.project-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+}
+nav h1 {
+    color: blue;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+}
+@media(max-width:768px) {
+.project-container img {
+    width: 100px;
+}
+nav {
+    flex-direction: column;
+    align-items: center;
+}
+}
+form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+      
