@@ -4,23 +4,40 @@
         <title>Portfolio</title>
      <link rel="stylesheet" href="style.css"
     </head>
-    <body>
-    <nav>
-        <h2>My Portfolio</h2>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <h1>Contact Me</h1>
-    <form>
-        <label>Name:</label><br>
-        <input type="text" required><br><br>
+    <body class="contact-page"> 
+     <body>
         
-        <label>Email:</label>br><br>
+    <nav>
+      <h1 class="logo">MY PORTFOLIO</h1>
+
+               <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="profile.html">PROFILE</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+        <div class="search">
+        <input class="srch" type="search" name="" placeholder="Type here">
+        <button class="btn">Search</button>
+        </nav>
+     <h1 class="blue">Contact Me</h1>
+    <form>
+        <label>Name</label><br>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+        
+        <label>Message</label>
+        <textarea placeholder="Write your message" required></textarea>
+
+        <button type="submit">Send Message</button>
 
     </form>
+
+    <footer>
+        <p>&copy 2026 Omobolanle. All rights reserved.</p>
+    </footer>
    </body>
    </html>
