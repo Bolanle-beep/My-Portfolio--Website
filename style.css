@@ -39,39 +39,21 @@ nav ul li{
 .logo{
     color:#f008ae;
     font-size:20px;
-    
-    
 }
 
-.heading{
-    text-align: center;
-    color: #ff4dcd;
-}
-.pink{
-    text-align: center;
-    font-size:20px;
-    font-weight: bolder;
-}
-.lists {
-    text-align: justify;
-         font-size: 20px;
-         font-weight: bolder;
 
-}
-.peg{
+.project-heading{
     text-align: center;
     color: purple;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 30px;
 } 
-.green{
-    align-items: center;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 20px;
+.profile{
+    font-size: larger;
 }
+
 .profile-img{
-    width: 150px;
+    width: 160px;
     border-radius: 50px;
     margin-bottom: 15px;
     height: 120px;
@@ -79,11 +61,6 @@ nav ul li{
     object-fit: cover;
     margin: 0 auto 15px;
 }
-
-.lists {
-    color: #ff4dcd;
-}
-
 
 .Gold {
     text-align: justify;
@@ -115,7 +92,7 @@ nav ul li{
     width: 350px;
     box-shadow: 0 4px 8px rgba(0,0,0 0.1);``
     color: #ff758c;
-    margin:15px;
+    margin: 15px;
     
 
 }
@@ -130,7 +107,7 @@ nav h1{
 .lists {
     text-align: center;
 }
-.blue{
+.contact-heading{
     text-align: center;
     color: purple;
 }
@@ -182,6 +159,7 @@ form {
     transform: :scale(1.05);
     transition:0.3s;
 }
+
 h1{
     color: #333;
     margin-top: 20px;
@@ -208,7 +186,7 @@ h1{
     float: left;
     padding: 10px;
     border-bottom-left-radius: 5px;
-    border-top-left-radius: ;
+    
 }
 .btn{
     width: 100px;
